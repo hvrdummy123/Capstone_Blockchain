@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+do npm i
+npm run setup - this is for setup + compile
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+then terminal 1
+npm run node 
 
-Try running some of the following tasks:
+terminal 2
+npm run demo
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+check pkg.json for help on what these commands dp
+
+npm run clean if abi issues r there, then repeat process
