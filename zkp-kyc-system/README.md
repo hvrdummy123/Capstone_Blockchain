@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+do npm i
+then npm run setup
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+then in 1 terminal do : npm run node
+in 2nd terminal : npm run demo
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+refer to pkg.json for help on wha these commands do - scripts
