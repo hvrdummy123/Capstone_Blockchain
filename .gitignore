@@ -1,0 +1,35 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments/chain-31337
+
+deployments.json
+package-lock.json
+requestData.json
+userData.json
+circuits/build/Over18_0000.zkey
+circuits/build/Over18_0001.zkey
+circuits/build/Over18_final.zkey
+circuits/build/Over18.r1cs
+circuits/build/Over18.sym
+circuits/build/verification_key.json
+circuits/build/Over18_js/generate_witness.js
+circuits/build/Over18_js/Over18.wasm
+circuits/build/Over18_js/witness_calculator.js
+contracts/Groth16Verifier.sol
+contracts/Lock.sol
+ignition/modules/Lock.js
+test/Lock.js
